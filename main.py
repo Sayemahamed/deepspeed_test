@@ -55,7 +55,7 @@ def main():
     print(f"--> Rank {rank} is running on host: {hostname} on device: {model_engine.device}")
 
     # 5. Prepare Dataloader
-    batch_size = model_engine.train_micro_batch_size_per_gpu
+    batch_size = model_engine.train_micro_batch_size_per_gpu()
     train_dataset = RandomDataset(num_samples=1000, input_size=128)
     train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
 
