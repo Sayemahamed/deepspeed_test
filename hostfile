@@ -1,2 +1,2 @@
 localhost slots=1
-192.168.0.110 slots=1
+wsl-worker slots=1
