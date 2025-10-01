@@ -1,2 +1,2 @@
-localhost slots=1
-wsl-worker slots=1
+device_a slots=1
+device_b slots=1
