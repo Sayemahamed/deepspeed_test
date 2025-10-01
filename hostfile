@@ -1,2 +1,2 @@
-device_a slots=1
-device_b slots=1
+192.168.0.110 slots=1
+192.168.0.100 slots=1
